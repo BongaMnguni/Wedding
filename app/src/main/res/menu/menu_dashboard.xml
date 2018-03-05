@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.payghost.bethesdaworshipcentre.Dashboard">
+
+    <item
+        android:id="@+id/action_back"
+        android:icon="@mipmap/back"
+        android:title="Search"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@drawable/icons8adduser"
+        android:id="@+id/action_register"
+        android:orderInCategory="100"
+        android:title="@string/register"
+        app:showAsAction="always" />
+  <item
+        android:icon="@drawable/upload"
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/title_dashboard"
+        app:showAsAction="always" />
+
+</menu>

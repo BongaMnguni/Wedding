@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/texture"
+    tools:context="com.payghost.wedding.Admin.GalleryUpload">
+
+
+<LinearLayout
+    android:id="@+id/galleryLayout"
+    android:padding="15dp"
+    android:background="@drawable/background_shape"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cake_upload"
+            android:textColor="@color/colorPrimary"
+           android:background="@drawable/container_button_shape"
+            android:textStyle="bold"
+            android:text="Cake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+          <Button
+              android:id="@+id/suit_upload"
+              android:textColor="@color/colorPrimary"
+              android:background="@drawable/button_shape"
+              android:layout_marginLeft="10dp"
+              android:textStyle="bold"
+             android:text="Suit"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/dress_upload"
+            android:layout_below="@+id/layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/colorPrimary"
+            android:text="Dress"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:background="@drawable/container_button_shape"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/dress_upload"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/img_select_photo"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons8touch"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+
+</RelativeLayout>

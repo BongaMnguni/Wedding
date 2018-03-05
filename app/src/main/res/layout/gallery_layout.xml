@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@drawable/texture"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:padding="15dp"
+        android:background="@drawable/background_shape"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/gallery_cake"
+                android:layout_width="80dp"
+                android:layout_marginRight="25dp"
+                android:layout_height="80dp"
+                android:src="@drawable/cake"/>
+
+            <TextView
+                android:textSize="18dp"
+                android:id="@+id/tvcake"
+                android:text="Cakes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/gallery_suit"
+               android:layout_marginRight="25dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/suit"/>
+
+            <TextView
+                android:textSize="18dp"
+                android:id="@+id/tvsuit"
+                android:text="Men's Suit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/gallery_dress"
+                android:layout_marginRight="25dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/dress"/>
+
+            <TextView
+                android:textSize="18dp"
+                android:id="@+id/tvdress"
+                android:text="Bridal Dresses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:layout_gravity="clip_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/gallery_public"
+                android:layout_marginRight="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/publicimages"/>
+
+            <TextView
+                android:textSize="18dp"
+                android:id="@+id/tvpublic"
+                android:text="General Images"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

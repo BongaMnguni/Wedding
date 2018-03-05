@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Our Wedding</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="title_activity_admin_dashboard">AdminDashboardActivity</string>
+    <string name="tab_text_1">Message</string>
+    <string name="tab_text_2">Gallery</string>
+    <string name="tab_text_3">Delete</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="logout">logout</string>
+</resources>
