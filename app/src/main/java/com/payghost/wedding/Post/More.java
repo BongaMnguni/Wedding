@@ -21,7 +21,7 @@ import com.payghost.wedding.UserRegister;
 import com.squareup.picasso.Picasso;
 
 /**
- * Created by Payghost on 3/5/2018.
+ * Created by Payghost on 3/5/2018. wedding
  */
 
 public class More extends AppCompatActivity {
@@ -39,8 +39,8 @@ String caption,imageurl;
         textView.setTypeface(font);
 
         Bundle b = getIntent().getExtras();
-        caption = b.getString("caption");
-        imageurl = b.getString("imageurl");
+        caption = b != null ? b.getString("caption") : null;
+        imageurl = b != null ? b.getString("imageurl") : null;
 
         textView.setText(caption);
         Picasso.with(getApplicationContext()).load(imageurl).into(image);
