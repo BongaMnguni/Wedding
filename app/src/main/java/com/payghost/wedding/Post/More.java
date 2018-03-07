@@ -38,7 +38,7 @@ String caption,imageurl;
         Typeface font = Typeface.createFromAsset(getAssets(),"custom_font.ttf");
         textView.setTypeface(font);
 
-        // checking values if there are null
+        // checking values if there are null;
         Bundle b = getIntent().getExtras();
         caption = b != null ? b.getString("caption") : null;
         imageurl = b != null ? b.getString("imageurl") : null;
